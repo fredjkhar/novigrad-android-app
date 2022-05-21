@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_animation"
+    android:id="@+id/chooseServiceLayout"
+    tools:context=".clientActivities.ChooseServiceActivity">
+
+
+    <TextView
+        android:id="@+id/textView987"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:text="Branch address"
+        android:textColor="#272932"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/branchAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView987"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:text="Branch address"
+        android:textColor="#272932"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView619"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/branchAddress"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:text="Branch rating"
+        android:textColor="#272932"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView619"
+        android:layout_alignStart="@id/textView619"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/textView125"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ratingBar"
+        android:layout_alignStart="@id/ratingBar"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:text="Select branch service"
+        android:textColor="#272932"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/offeredServices"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/textView125"
+        android:layout_alignStart="@id/textView125"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Or"
+        android:textColor="#272932"
+        android:textSize="28sp"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:textStyle="bold"
+        android:layout_below="@+id/offeredServices"
+        android:layout_alignStart="@+id/offeredServices"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/scheduleAppointmentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/offeredServices"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="15dp"
+        android:alpha="0.8"
+        android:background="@drawable/layout_edit_text_1"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="Schedule an appointment "
+        android:textAllCaps="false"
+        android:textColor="#272932"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>

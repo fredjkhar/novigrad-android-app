@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_animation"
+    android:id="@+id/clientActivityLayout"
+    tools:context=".clientActivities.ClientActivity">
+
+    <TextView
+        android:id="@+id/clientGreetingTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:textAllCaps="false"
+        android:textColor="#272932"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/submitServiceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Submit a service request"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="26dp"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:textColor="#272932"
+        app:layout_constraintStart_toStartOf="@+id/clientGreetingTextView"
+        app:layout_constraintTop_toBottomOf="@+id/clientGreetingTextView" />
+
+    <TextView
+        android:id="@+id/viewRequestsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="View past service requests"
+        android:textSize="26dp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:textColor="#272932"
+        app:layout_constraintStart_toStartOf="@+id/submitServiceTextView"
+        app:layout_constraintTop_toBottomOf="@+id/submitServiceTextView" />
+
+    <TextView
+        android:id="@+id/updateAccountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="UpdateAccount info"
+        android:textSize="26dp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:textColor="#272932"
+        app:layout_constraintStart_toStartOf="@+id/viewRequestsTextView"
+        app:layout_constraintTop_toBottomOf="@+id/viewRequestsTextView" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/clientLogOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/layout_edit_text_1"
+        android:alpha="0.8"
+        android:textSize="22dp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:text="log out"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

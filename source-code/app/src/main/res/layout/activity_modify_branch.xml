@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activityModifyBranchLayout"
+    android:background="@drawable/gradient_animation"
+    tools:context=".employeeActivities.ModifyBranchActivity">
+
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:text="Branches"
+        android:textColor="#272932"
+        android:textSize="42sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/modifyBranchesListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView23"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="5dp"
+        android:textColor="#272932"
+        android:layout_marginStart="5dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"/>
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/roleChoiceLayout"
+    android:background="@drawable/gradient_animation"
+    tools:context=".authentication.RoleChoiceActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:text="n o v I g r a d"
+        android:textColor="#272932"
+        android:textSize="42sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:text="select your role"
+        android:textColor="#272932"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <androidx.appcompat.widget.AppCompatToggleButton
+        android:id="@+id/employeeToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:alpha="0.8"
+        android:background="@drawable/toggle_button"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:minWidth="200dp"
+        android:minHeight="50dp"
+        android:textAllCaps="false"
+        android:textOff="employee"
+        android:textOn="employee"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <androidx.appcompat.widget.AppCompatToggleButton
+        android:id="@+id/clientToggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:alpha="0.8"
+        android:background="@drawable/toggle_button"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:minWidth="200dp"
+        android:minHeight="50dp"
+        android:textAllCaps="false"
+        android:textOff="client"
+        android:textOn="client"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/employeeToggleButton" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/continueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="60dp"
+        android:alpha="0.8"
+        android:background="@drawable/layout_edit_text_1"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:minWidth="100dp"
+        android:minHeight="50dp"
+        android:text="continue"
+        android:textAllCaps="false"
+        android:textColorHint="#272932"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clientToggleButton" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
