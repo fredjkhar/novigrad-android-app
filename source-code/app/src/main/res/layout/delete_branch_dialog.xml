@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGradientEnd">
+
+
+    <TextView
+        android:id="@+id/fullAddressTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:text=""
+        android:textAllCaps="false"
+        android:textColor="#272932"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@id/fullAddressTextView"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:text="Work schedule"
+        android:textAllCaps="false"
+        android:textColor="#272932"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/deleteBranchWorkScheduleListView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/textView14"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp" />
+
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@id/deleteBranchWorkScheduleListView"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:text="Provided services"
+        android:textAllCaps="false"
+        android:textColor="#272932"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/deleteBranchAssociatedServicesListView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/textView16"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deleteBranchAssociatedServicesListView">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/deleteBranchButtonDialogView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/layout_edit_text_1"
+            android:fontFamily="@font/alegreya_sans_sc_light"
+            android:text="delete"
+            android:textAllCaps="false"
+            android:textColor="#272932"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

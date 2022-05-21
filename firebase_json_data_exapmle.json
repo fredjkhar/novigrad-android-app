@@ -1,0 +1,424 @@
+{
+  "Branches" : {
+    "-MpzRK6pmWdBo2-Cl70X" : {
+      "address" : "324, rue St. Louis Pastor ",
+      "city" : "Montreal",
+      "codeZIP" : "E1R9E2",
+      "id" : "-MpzRK6pmWdBo2-Cl70X",
+      "province" : "Quebec",
+      "servicesList" : [ {
+        "documentFields" : [ "Permit G1", "Passport ", "Proof of address" ],
+        "id" : "-MpzOVkuJ18Uv7fkcjUy",
+        "numericalFields" : [ "Day of birth", "Month of birth", "Year of birth" ],
+        "price" : "65",
+        "textFields" : [ "First name", "Middle name (if applicable)", "Last name", "Occupation", "Full address", "Vision test score" ],
+        "title" : "Premit G2"
+      }, {
+        "documentFields" : [ "Passport", "Proof of address" ],
+        "id" : "-MpzNZKyvFIJyOBI-jQt",
+        "numericalFields" : [ "Day of birth", "Month of birth", "Year of Birth ", "Vision test score" ],
+        "price" : "60",
+        "textFields" : [ "First Name", "Last Name", "Occupation" ],
+        "title" : "Permit G1"
+      } ],
+      "workHoursList" : [ {
+        "day" : "Monday",
+        "endHour" : 19,
+        "endMinute" : 0,
+        "startHour" : 10,
+        "startMinute" : 0
+      }, {
+        "day" : "Tuesday",
+        "endHour" : 19,
+        "endMinute" : 0,
+        "startHour" : 10,
+        "startMinute" : 0
+      }, {
+        "day" : "Wednesday",
+        "endHour" : 19,
+        "endMinute" : 0,
+        "startHour" : 10,
+        "startMinute" : 0
+      }, {
+        "day" : "Thursday",
+        "endHour" : 19,
+        "endMinute" : 0,
+        "startHour" : 10,
+        "startMinute" : 0
+      }, {
+        "day" : "Friday",
+        "endHour" : 15,
+        "endMinute" : 0,
+        "startHour" : 10,
+        "startMinute" : 30
+      } ]
+    },
+    "-MpzRn7QdwG7xZ-nlmUT" : {
+      "address" : "2310, Queen St",
+      "city" : "Vancouver",
+      "codeZIP" : "X8V7E3",
+      "id" : "-MpzRn7QdwG7xZ-nlmUT",
+      "province" : "British Columbia",
+      "servicesList" : [ {
+        "documentFields" : [ "Passport photo", "Proof of address" ],
+        "id" : "-MpzNzL1EO51t63txY7s",
+        "numericalFields" : [ "Age" ],
+        "price" : "125",
+        "textFields" : [ "First name", "Middle name (if applicable)", "Last name", "Occupation", "Address" ],
+        "title" : "Passport"
+      } ],
+      "workHoursList" : [ {
+        "day" : "Monday",
+        "endHour" : 17,
+        "endMinute" : 30,
+        "startHour" : 8,
+        "startMinute" : 30
+      }, {
+        "day" : "Tuesday",
+        "endHour" : 19,
+        "endMinute" : 0,
+        "startHour" : 8,
+        "startMinute" : 30
+      }, {
+        "day" : "Wednesday",
+        "endHour" : 19,
+        "endMinute" : 0,
+        "startHour" : 8,
+        "startMinute" : 30
+      }, {
+        "day" : "Thursday",
+        "endHour" : 19,
+        "endMinute" : 0,
+        "startHour" : 8,
+        "startMinute" : 30
+      }, {
+        "day" : "Friday",
+        "endHour" : 14,
+        "endMinute" : 0,
+        "startHour" : 10,
+        "startMinute" : 0
+      } ]
+    },
+    "-MqHcc5xeCfF7hyRHgIg" : {
+      "address" : "45, Rideau st",
+      "city" : "Ottawa",
+      "codeZIP" : "K1N8E3",
+      "id" : "-MqHcc5xeCfF7hyRHgIg",
+      "province" : "Ontario",
+      "servicesList" : [ {
+        "documentFields" : [ "Proof of address", "Photo" ],
+        "id" : "-Mp3rGqX06-dt_z0GYGE",
+        "numericalFields" : [ "Year of birth ", "Month of birth", "Day of birth" ],
+        "price" : "25",
+        "textFields" : [ "First name", "Middle name (optional)", "Last name", "Address" ],
+        "title" : "Photo ID"
+      }, {
+        "documentFields" : [ "Passport", "Proof of address" ],
+        "id" : "-MpzNZKyvFIJyOBI-jQt",
+        "numericalFields" : [ "Day of birth", "Month of birth", "Year of Birth ", "Vision test score" ],
+        "price" : "60",
+        "textFields" : [ "First Name", "Last Name", "Occupation" ],
+        "title" : "Permit G1"
+      }, {
+        "documentFields" : [ "Passport photo", "Proof of address" ],
+        "id" : "-MpzNzL1EO51t63txY7s",
+        "numericalFields" : [ "Age" ],
+        "price" : "125",
+        "textFields" : [ "First name", "Middle name (if applicable)", "Last name", "Occupation", "Address" ],
+        "title" : "Passport"
+      } ],
+      "workHoursList" : [ {
+        "day" : "Monday",
+        "endHour" : 19,
+        "endMinute" : 0,
+        "startHour" : 9,
+        "startMinute" : 0
+      }, {
+        "day" : "Tuesday",
+        "endHour" : 19,
+        "endMinute" : 0,
+        "startHour" : 9,
+        "startMinute" : 0
+      }, {
+        "day" : "Wednesday",
+        "endHour" : 19,
+        "endMinute" : 0,
+        "startHour" : 9,
+        "startMinute" : 0
+      }, {
+        "day" : "Thursday",
+        "endHour" : 15,
+        "endMinute" : 0,
+        "startHour" : 9,
+        "startMinute" : 0
+      } ]
+    },
+    "-MqHgRQGShCSOSJV1zH2" : {
+      "address" : "45, Montreal st",
+      "city" : "Ottawa",
+      "codeZIP" : "K1V0R2",
+      "id" : "-MqHgRQGShCSOSJV1zH2",
+      "province" : "Ontario",
+      "servicesList" : [ {
+        "documentFields" : [ "Proof of address", "Photo" ],
+        "id" : "-Mp3rGqX06-dt_z0GYGE",
+        "numericalFields" : [ "Year of birth ", "Month of birth", "Day of birth" ],
+        "price" : "25",
+        "textFields" : [ "First name", "Middle name (optional)", "Last name", "Address" ],
+        "title" : "Photo ID"
+      }, {
+        "documentFields" : [ "Passport", "Proof of address" ],
+        "id" : "-MpzNZKyvFIJyOBI-jQt",
+        "numericalFields" : [ "Day of birth", "Month of birth", "Year of Birth ", "Vision test score" ],
+        "price" : "60",
+        "textFields" : [ "First Name", "Last Name", "Occupation" ],
+        "title" : "Permit G1"
+      }, {
+        "documentFields" : [ "Passport photo", "Proof of address" ],
+        "id" : "-MpzNzL1EO51t63txY7s",
+        "numericalFields" : [ "Age" ],
+        "price" : "125",
+        "textFields" : [ "First name", "Middle name (if applicable)", "Last name", "Occupation", "Address" ],
+        "title" : "Passport"
+      } ],
+      "workHoursList" : [ {
+        "day" : "Monday",
+        "endHour" : 18,
+        "endMinute" : 0,
+        "startHour" : 9,
+        "startMinute" : 0
+      }, {
+        "day" : "Tuesday",
+        "endHour" : 19,
+        "endMinute" : 0,
+        "startHour" : 8,
+        "startMinute" : 0
+      }, {
+        "day" : "Wednesday",
+        "endHour" : 19,
+        "endMinute" : 0,
+        "startHour" : 9,
+        "startMinute" : 0
+      }, {
+        "day" : "Thursday",
+        "endHour" : 19,
+        "endMinute" : 0,
+        "startHour" : 9,
+        "startMinute" : 0
+      } ]
+    },
+    "-MqHh40COIDhd-Ek4BB6" : {
+      "address" : "34, Montreal st",
+      "city" : "Ottawa",
+      "codeZIP" : "K1V0R2",
+      "id" : "-MqHh40COIDhd-Ek4BB6",
+      "province" : "Ontario",
+      "servicesList" : [ {
+        "documentFields" : [ "Proof of address", "Photo" ],
+        "id" : "-Mp3rGqX06-dt_z0GYGE",
+        "numericalFields" : [ "Year of birth ", "Month of birth", "Day of birth" ],
+        "price" : "25",
+        "textFields" : [ "First name", "Middle name (optional)", "Last name", "Address" ],
+        "title" : "Photo ID"
+      }, {
+        "documentFields" : [ "Passport photo", "Proof of address" ],
+        "id" : "-MpzNzL1EO51t63txY7s",
+        "numericalFields" : [ "Age" ],
+        "price" : "125",
+        "textFields" : [ "First name", "Middle name (if applicable)", "Last name", "Occupation", "Address" ],
+        "title" : "Passport"
+      } ],
+      "workHoursList" : [ {
+        "day" : "Monday",
+        "endHour" : 19,
+        "endMinute" : 0,
+        "startHour" : 9,
+        "startMinute" : 0
+      }, {
+        "day" : "Wednesday",
+        "endHour" : 19,
+        "endMinute" : 0,
+        "startHour" : 8,
+        "startMinute" : 0
+      }, {
+        "day" : "Thursday",
+        "endHour" : 19,
+        "endMinute" : 0,
+        "startHour" : 8,
+        "startMinute" : 0
+      }, {
+        "day" : "Tuesday",
+        "endHour" : 19,
+        "endMinute" : 0,
+        "startHour" : 8,
+        "startMinute" : 30
+      } ]
+    }
+  },
+  "Clients" : {
+    "MPqlA5TCgAbSvU54UD9conoJ2nM2" : {
+      "email" : "frejkharoubi@gmail.com",
+      "firstName" : "Fredj",
+      "id" : "MPqlA5TCgAbSvU54UD9conoJ2nM2",
+      "lastName" : "Kharroubi ",
+      "password" : "123123123123",
+      "type" : "Client",
+      "username" : "fkhafkha"
+    },
+    "l5cDpuyCXiegeB2ghDZWrCcgAeR2" : {
+      "email" : "smaich@gmail.com",
+      "firstName" : "Sahaa",
+      "id" : "l5cDpuyCXiegeB2ghDZWrCcgAeR2",
+      "lastName" : "Gmaida",
+      "password" : "14141414",
+      "type" : "Client",
+      "username" : "priorityQueue"
+    }
+  },
+  "Employees" : {
+    "ieY0HqFeMfS1MRJ1fCXALyr3K4B2" : {
+      "email" : "frejkharroubi@mail.ru",
+      "firstName" : "fredj",
+      "id" : "ieY0HqFeMfS1MRJ1fCXALyr3K4B2",
+      "lastName" : "Kharroubi ",
+      "password" : "123123123",
+      "username" : "username"
+    },
+    "vnJMwobulogWGuDgms4k48CCOhz2" : {
+      "email" : "abline2002@gmail.com",
+      "firstName" : "Abline",
+      "id" : "vnJMwobulogWGuDgms4k48CCOhz2",
+      "lastName" : "Abadassi",
+      "password" : "123123123",
+      "type" : "Employee",
+      "username" : "ablnbdss"
+    }
+  },
+  "Requested" : {
+    "-MqSmaBWD0D_CM3sc60c" : {
+      "branch" : {
+        "address" : "2310, Queen St",
+        "city" : "Vancouver",
+        "codeZIP" : "X8V7E3",
+        "id" : "-MpzRn7QdwG7xZ-nlmUT",
+        "province" : "British Columbia",
+        "servicesList" : [ {
+          "documentFields" : [ "Passport photo", "Proof of address" ],
+          "id" : "-MpzNzL1EO51t63txY7s",
+          "numericalFields" : [ "Age" ],
+          "price" : "125",
+          "textFields" : [ "First name", "Middle name (if applicable)", "Last name", "Occupation", "Address" ],
+          "title" : "Passport"
+        } ],
+        "workHoursList" : [ {
+          "day" : "Monday",
+          "endHour" : 17,
+          "endMinute" : 30,
+          "startHour" : 8,
+          "startMinute" : 30
+        }, {
+          "day" : "Tuesday",
+          "endHour" : 19,
+          "endMinute" : 0,
+          "startHour" : 8,
+          "startMinute" : 30
+        }, {
+          "day" : "Wednesday",
+          "endHour" : 19,
+          "endMinute" : 0,
+          "startHour" : 8,
+          "startMinute" : 30
+        }, {
+          "day" : "Thursday",
+          "endHour" : 19,
+          "endMinute" : 0,
+          "startHour" : 8,
+          "startMinute" : 30
+        }, {
+          "day" : "Friday",
+          "endHour" : 14,
+          "endMinute" : 0,
+          "startHour" : 10,
+          "startMinute" : 0
+        } ]
+      },
+      "form" : [ {
+        "answer" : "Fred",
+        "description" : "First name",
+        "type" : "TextField"
+      }, {
+        "answer" : "F",
+        "description" : "Middle name (if applicable)",
+        "type" : "TextField"
+      }, {
+        "answer" : "Kharroubi ",
+        "description" : "Last name",
+        "type" : "TextField"
+      }, {
+        "answer" : "Student ",
+        "description" : "Occupation",
+        "type" : "TextField"
+      }, {
+        "answer" : "Earth",
+        "description" : "Address",
+        "type" : "TextField"
+      }, {
+        "answer" : "21",
+        "description" : "Age",
+        "type" : "NumericalField"
+      }, {
+        "answer" : "JPEG_20211209_010303_8229589916729713388.jpg",
+        "description" : "Passport photo",
+        "type" : "DocumentField"
+      }, {
+        "answer" : "JPEG_20211209_010326_8234374472873141692.jpg",
+        "description" : "Proof of address",
+        "type" : "DocumentField"
+      } ],
+      "service" : {
+        "documentFields" : [ "Passport photo", "Proof of address" ],
+        "id" : "-MpzNzL1EO51t63txY7s",
+        "numericalFields" : [ "Age" ],
+        "price" : "125",
+        "textFields" : [ "First name", "Middle name (if applicable)", "Last name", "Occupation", "Address" ],
+        "title" : "Passport"
+      },
+      "status" : "Accepted",
+      "uid" : "-MqSmaBWD0D_CM3sc60c"
+    }
+  },
+  "Services" : {
+    "-Mp3rGqX06-dt_z0GYGE" : {
+      "documentFields" : [ "Proof of address", "Photo" ],
+      "id" : "-Mp3rGqX06-dt_z0GYGE",
+      "numericalFields" : [ "Year of birth ", "Month of birth", "Day of birth" ],
+      "price" : "25",
+      "textFields" : [ "First name", "Middle name (optional)", "Last name", "Address" ],
+      "title" : "Photo ID"
+    },
+    "-MpzNZKyvFIJyOBI-jQt" : {
+      "documentFields" : [ "Passport", "Proof of address" ],
+      "id" : "-MpzNZKyvFIJyOBI-jQt",
+      "numericalFields" : [ "Day of birth", "Month of birth", "Year of Birth ", "Vision test score" ],
+      "price" : "60",
+      "textFields" : [ "First Name", "Last Name", "Occupation" ],
+      "title" : "Permit G1"
+    },
+    "-MpzOVkuJ18Uv7fkcjUy" : {
+      "documentFields" : [ "Photo ID", "Passport ", "Proof of address" ],
+      "id" : "-MpzOVkuJ18Uv7fkcjUy",
+      "numericalFields" : [ "Day of birth", "Month of birth", "Year of birth" ],
+      "price" : "65",
+      "textFields" : [ "First name", "Middle name (if applicable)", "Last name", "Occupation", "Full address", "Vision test score" ],
+      "title" : "Premit G2"
+    },
+    "-MqQWobMm0B4OH72258C" : {
+      "documentFields" : [ "Passport" ],
+      "id" : "-MqQWobMm0B4OH72258C",
+      "numericalFields" : [ "Day of birth", "Month of birth", "Year of birth" ],
+      "price" : "25",
+      "textFields" : [ "First name", "Last name" ],
+      "title" : "Full driving license "
+    }
+  }
+}

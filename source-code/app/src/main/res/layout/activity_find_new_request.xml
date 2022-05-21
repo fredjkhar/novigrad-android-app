@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_animation"
+    android:id="@+id/findNewRequestLayout"
+    tools:context=".clientActivities.FindNewRequestActivity">
+
+
+    <TextView
+        android:id="@+id/textView665"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:text="Services"
+        android:textColor="#272932"
+        android:textSize="42sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/searchByAddress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView665"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:alpha="0.8"
+        android:background="@drawable/layout_edit_text_1"
+        android:drawableStart="@drawable/ic_action_address_logo"
+        android:ems="10"
+        android:fontFamily="sans-serif-light"
+        android:hint="search by address"
+        android:inputType="textEmailAddress"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:textColor="#272932"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/searchByServices"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/searchByAddress"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:alpha="0.8"
+        android:background="@drawable/layout_edit_text_1"
+        android:drawableStart="@drawable/ic_action_service_logo"
+        android:ems="10"
+        android:fontFamily="sans-serif-light"
+        android:hint="search by services"
+        android:inputType="textEmailAddress"
+        android:paddingStart="16dp"
+        android:paddingEnd="15dp"
+        android:textColor="#272932"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/searchByWorkHours"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/searchByServices"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:alpha="0.8"
+        android:background="@drawable/layout_edit_text_1"
+        android:drawableStart="@drawable/ic_action_time_logo"
+        android:ems="10"
+        android:fontFamily="sans-serif-light"
+        android:hint="search by workHours"
+        android:inputType="textEmailAddress"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:textColor="#272932"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/searchBranchListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:textColor="#272932"
+        android:textSize="22sp"
+        android:layout_below="@id/searchByWorkHours"/>
+</RelativeLayout>

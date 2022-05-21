@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_animation"
+    android:id="@+id/fillNumericalFieldsLayout"
+    tools:context=".adminActivities.FillNumericalFields">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/numericalFields"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:minHeight="80dp"
+                android:textAlignment="center"
+                android:paddingTop="20dp"
+                android:textColor="#272932"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/alegreya_sans_sc_light"
+                android:text="numerical fields" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editNumericalField1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/layout_edit_text_1"
+                android:ems="10"
+                android:textColorHint="#272932"
+                android:alpha="0.8"
+                android:fontFamily="sans-serif-light"
+                android:textSize="20sp"
+                android:hint="Numerical field #1"
+                android:inputType="textPersonName"
+                android:minHeight="45dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editNumericalField2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:background="@drawable/layout_edit_text_1"
+                android:inputType="textPersonName"
+                android:minHeight="45dp"
+                android:textColorHint="#272932"
+                android:alpha="0.8"
+                android:fontFamily="sans-serif-light"
+                android:textSize="20sp"
+                android:hint="Numerical field #2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editNumericalField3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:background="@drawable/layout_edit_text_1"
+                android:inputType="textPersonName"
+                android:minHeight="45dp"
+                android:textColorHint="#272932"
+                android:alpha="0.8"
+                android:fontFamily="sans-serif-light"
+                android:textSize="20sp"
+                android:hint="Numerical field #3"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editNumericalField4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:background="@drawable/layout_edit_text_1"
+                android:inputType="textPersonName"
+                android:minHeight="45dp"
+                android:textColorHint="#272932"
+                android:alpha="0.8"
+                android:fontFamily="sans-serif-light"
+                android:textSize="20sp"
+                android:hint="Numerical field #4"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editNumericalField5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:background="@drawable/layout_edit_text_1"
+                android:inputType="textPersonName"
+                android:minHeight="45dp"
+                android:textColorHint="#272932"
+                android:alpha="0.8"
+                android:fontFamily="sans-serif-light"
+                android:textSize="20sp"
+                android:hint="Numerical field #5"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editNumericalField6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:background="@drawable/layout_edit_text_1"
+                android:inputType="textPersonName"
+                android:minHeight="45dp"
+                android:textColorHint="#272932"
+                android:alpha="0.8"
+                android:fontFamily="sans-serif-light"
+                android:textSize="20sp"
+                android:hint="Numerical field #6"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editNumericalField7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:background="@drawable/layout_edit_text_1"
+                android:inputType="textPersonName"
+                android:minHeight="45dp"
+                android:textColorHint="#272932"
+                android:alpha="0.8"
+                android:fontFamily="sans-serif-light"
+                android:textSize="20sp"
+                android:hint="Numerical field #7"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editNumericalField8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:background="@drawable/layout_edit_text_1"
+                android:inputType="textPersonName"
+                android:minHeight="45dp"
+                android:textColorHint="#272932"
+                android:alpha="0.8"
+                android:fontFamily="sans-serif-light"
+                android:textSize="20sp"
+                android:hint="Numerical field #8"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editNumericalField9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:background="@drawable/layout_edit_text_1"
+                android:inputType="textPersonName"
+                android:minHeight="45dp"
+                android:textColorHint="#272932"
+                android:alpha="0.8"
+                android:fontFamily="sans-serif-light"
+                android:textSize="20sp"
+                android:hint="Numerical field #9"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editNumericalField10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:background="@drawable/layout_edit_text_1"
+                android:inputType="textPersonName"
+                android:minHeight="45dp"
+                android:textColorHint="#272932"
+                android:alpha="0.8"
+                android:fontFamily="sans-serif-light"
+                android:textSize="20sp"
+                android:hint="Numerical field #10"/>
+        </TableRow>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="60dp"
+            android:alpha="0.8"
+            android:background="@drawable/layout_edit_text_1"
+            android:fontFamily="@font/alegreya_sans_sc_light"
+            android:minWidth="1dp"
+            android:minHeight="50dp"
+            android:text="continue"
+            android:id="@+id/continueButtonNumericalFieldsButton"
+            android:textAllCaps="false"
+            android:textColorHint="#272932"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableLayout>
+</ScrollView>

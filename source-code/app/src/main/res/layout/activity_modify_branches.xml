@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_animation"
+    android:id="@+id/modifyBranchesLayout"
+    tools:context=".employeeActivities.CreateBranchActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="40dp">
+
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/alegreya_sans_sc_light"
+            android:text="Modify the branch"
+            android:textColor="#272932"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView99"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/alegreya_sans_sc_light"
+            android:minWidth="120dp"
+            android:minHeight="35dp"
+            android:text="Address location"
+            android:textColor="#272932"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView55"
+            app:layout_constraintTop_toBottomOf="@+id/textView55" />
+
+
+        <Spinner
+            android:id="@+id/provinceModifySpinner"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toEndOf="@+id/textView15"
+            app:layout_constraintTop_toBottomOf="@+id/textView99" />
+
+        <EditText
+            android:id="@+id/addressModifyEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:background="@drawable/layout_edit_text_1"
+            android:textColorHint="#272932"
+            android:alpha="0.8"
+            android:fontFamily="sans-serif-light"
+            android:textSize="20sp"
+            android:minHeight="45dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            app:layout_constraintStart_toStartOf="@+id/cityModifyEditText"
+            app:layout_constraintTop_toBottomOf="@+id/cityModifyEditText" />
+
+        <EditText
+            android:id="@+id/codeZIPModifyEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:background="@drawable/layout_edit_text_1"
+            android:textColorHint="#272932"
+            android:alpha="0.8"
+            android:fontFamily="sans-serif-light"
+            android:textSize="20sp"
+            android:minHeight="45dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            app:layout_constraintStart_toStartOf="@+id/addressModifyEditText"
+            app:layout_constraintTop_toBottomOf="@+id/addressModifyEditText" />
+
+
+        <EditText
+            android:id="@+id/cityModifyEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:alpha="0.8"
+            android:background="@drawable/layout_edit_text_1"
+            android:ems="10"
+            android:fontFamily="sans-serif-light"
+            android:inputType="textPersonName"
+            android:minHeight="45dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textColorHint="#272932"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/textView15"
+            app:layout_constraintTop_toBottomOf="@+id/provinceModifySpinner" />
+
+        <TextView
+            android:id="@+id/textView122"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/alegreya_sans_sc_light"
+            android:minWidth="120dp"
+            android:minHeight="35dp"
+            android:text="Work hours"
+            android:textColor="#272932"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/codeZIPModifyEditText"
+            app:layout_constraintTop_toBottomOf="@+id/codeZIPModifyEditText" />
+
+        <ToggleButton
+            android:id="@+id/mondayToggleButton1"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:alpha="0.7"
+            android:onClick="onToggleButtonClick"
+            android:background="@drawable/toggle_button"
+            android:fontFamily="@font/alegreya_sans_sc_light"
+            android:textAllCaps="false"
+            android:textOff="mon"
+            android:textOn="mon"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/textView122"
+            app:layout_constraintTop_toBottomOf="@+id/textView122" />
+
+        <ToggleButton
+            android:id="@+id/tuesdayToggleButton1"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"
+            android:alpha="0.7"
+            android:onClick="onToggleButtonClick"
+            android:background="@drawable/toggle_button"
+            android:fontFamily="@font/alegreya_sans_sc_light"
+            android:textAllCaps="false"
+            android:textOff="tue"
+            android:textOn="tue"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/mondayToggleButton1"
+            app:layout_constraintTop_toBottomOf="@+id/textView122" />
+
+        <ToggleButton
+            android:id="@+id/wednesdayToggleButton1"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"
+            android:alpha="0.7"
+            android:onClick="onToggleButtonClick"
+            android:background="@drawable/toggle_button"
+            android:fontFamily="@font/alegreya_sans_sc_light"
+            android:textAllCaps="false"
+            android:textOff="wed"
+            android:textOn="wed"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/tuesdayToggleButton1"
+            app:layout_constraintTop_toBottomOf="@+id/textView122" />
+
+        <ToggleButton
+            android:id="@+id/thursdayToggleButton1"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"
+            android:alpha="0.7"
+            android:onClick="onToggleButtonClick"
+            android:background="@drawable/toggle_button"
+            android:fontFamily="@font/alegreya_sans_sc_light"
+            android:textAllCaps="false"
+            android:textOff="thu"
+            android:textOn="thu"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/wednesdayToggleButton1"
+            app:layout_constraintTop_toBottomOf="@+id/textView122" />
+
+        <ToggleButton
+            android:id="@+id/fridayToggleButton1"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="5dp"
+            android:alpha="0.7"
+            android:onClick="onToggleButtonClick"
+            android:background="@drawable/toggle_button"
+            android:fontFamily="@font/alegreya_sans_sc_light"
+            android:textAllCaps="false"
+            android:textOff="fri"
+            android:textOn="fri"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/mondayToggleButton1"
+            app:layout_constraintTop_toBottomOf="@+id/mondayToggleButton1" />
+
+        <ToggleButton
+            android:id="@+id/saturdayToggleButton1"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:alpha="0.7"
+            android:onClick="onToggleButtonClick"
+            android:background="@drawable/toggle_button"
+            android:fontFamily="@font/alegreya_sans_sc_light"
+            android:textAllCaps="false"
+            android:textOff="sat"
+            android:textOn="sat"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/fridayToggleButton1"
+            app:layout_constraintTop_toBottomOf="@+id/tuesdayToggleButton1" />
+
+        <ToggleButton
+            android:id="@+id/sundayToggleButton1"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:alpha="0.7"
+            android:onClick="onToggleButtonClick"
+            android:background="@drawable/toggle_button"
+            android:fontFamily="@font/alegreya_sans_sc_light"
+            android:textAllCaps="false"
+            android:textOff="sun"
+            android:textOn="sun"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/saturdayToggleButton1"
+            app:layout_constraintTop_toBottomOf="@+id/wednesdayToggleButton1" />
+
+        <ListView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="@+id/fridayToggleButton1"
+            app:layout_constraintTop_toBottomOf="@+id/fridayToggleButton1" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Province"
+            android:textStyle="normal"
+            android:fontFamily="sans-serif-light"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:textColorHint="#272932"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="@+id/textView99"
+            app:layout_constraintTop_toBottomOf="@+id/textView99" />
+
+
+        <ListView
+            android:id="@+id/timesModifyListView"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fridayToggleButton1" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/updateBranchButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="50dp"
+            android:alpha="0.7"
+            android:background="@drawable/layout_edit_text_1"
+            android:fontFamily="@font/alegreya_sans_sc_light"
+            android:minWidth="100dp"
+            android:minHeight="50dp"
+            android:text="update"
+            android:textAllCaps="false"
+            android:textColorHint="#272932"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/viewSelectedServices" />
+
+        <Button
+            android:id="@+id/viewSelectedServices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:alpha="0.7"
+            android:background="@drawable/layout_edit_text_1"
+            android:fontFamily="@font/alegreya_sans_sc_light"
+            android:minWidth="200dp"
+            android:minHeight="50dp"
+            android:text="view selected services"
+            android:textAllCaps="false"
+            android:textColorHint="#272932"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/timesModifyListView" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

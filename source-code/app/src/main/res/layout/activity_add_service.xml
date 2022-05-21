@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_animation"
+    android:id="@+id/addServiceLayout"
+    tools:context=".adminActivities.AddServiceActivity">
+
+    <TextView
+        android:id="@+id/addServiceTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:minWidth="120dp"
+        android:minHeight="35dp"
+        android:text=""
+        android:textColor="#272932"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/addServicePrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addServiceTitle"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:minWidth="120dp"
+        android:minHeight="35dp"
+        android:text=""
+        android:textColor="#272932"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/addServiceList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/addServicePrice"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/AddServiceButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/layout_edit_text_1"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:minWidth="140dp"
+        android:minHeight="45dp"
+        android:text="add service"
+        android:textAllCaps="false"
+
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>

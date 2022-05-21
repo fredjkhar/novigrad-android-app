@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/updateServiceLayout"
+    android:background="@drawable/gradient_animation"
+    tools:context=".adminActivities.UpdateServiceActivity">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/TitleTextViewUpdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Title"
+                    android:textColor="#272932"
+                    android:textStyle="bold"
+
+                    android:fontFamily="@font/alegreya_sans_sc_light"
+                    android:textSize="32sp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/titleEditTextUpdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:textColor="#272932"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/layout_edit_text_1"
+                android:ems="10"
+                android:textColorHint="#272932"
+                android:alpha="0.8"
+                android:fontFamily="sans-serif-light"
+                android:textSize="20sp"
+                android:text=""
+                android:inputType="textPersonName"
+                android:minHeight="45dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/priceTextViewUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="#272932"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="10dp"
+                android:text="price"
+                android:textStyle="bold"
+                android:fontFamily="@font/alegreya_sans_sc_light"
+                android:textSize="32sp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/priceEditTextUpdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:textColor="#272932"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_edit_text_1"
+                    android:ems="10"
+                    android:textColorHint="#272932"
+                    android:alpha="0.8"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="20sp"
+                    android:text=""
+                    android:inputType="textPersonName"
+                    android:minHeight="45dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/textFieldTextViewUpdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="10dp"
+                    android:text="text fields"
+                    android:textColor="#272932"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/alegreya_sans_sc_light"
+                    android:textSize="32sp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/textFieldUpdate1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_edit_text_1"
+                    android:ems="10"
+                    android:textColor="#272932"
+                    android:textColorHint="#272932"
+                    android:alpha="0.8"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="20sp"
+                    android:hint=""
+
+                    android:inputType="textPersonName"
+                    android:minHeight="45dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/textFieldUpdate2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#272932"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_edit_text_1"
+                    android:ems="10"
+                    android:textColorHint="#272932"
+                    android:alpha="0.8"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="20sp"
+                    android:hint=""
+                    android:inputType="textPersonName"
+                    android:minHeight="45dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/textFieldUpdate3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#272932"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_edit_text_1"
+                    android:ems="10"
+                    android:textColorHint="#272932"
+                    android:alpha="0.8"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="20sp"
+                    android:hint=""
+                    android:inputType="textPersonName"
+                    android:minHeight="45dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/textFieldUpdate4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#272932"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_edit_text_1"
+                    android:ems="10"
+                    android:textColorHint="#272932"
+                    android:alpha="0.8"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="20sp"
+                    android:hint=""
+                    android:inputType="textPersonName"
+                    android:minHeight="45dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/textFieldUpdate5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#272932"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_edit_text_1"
+                    android:ems="10"
+                    android:textColorHint="#272932"
+                    android:alpha="0.8"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="20sp"
+                    android:hint=""
+                    android:inputType="textPersonName"
+                    android:minHeight="45dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/textFieldUpdate6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:textColor="#272932"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_edit_text_1"
+                    android:ems="10"
+                    android:textColorHint="#272932"
+                    android:alpha="0.8"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="20sp"
+                    android:hint=""
+                    android:inputType="textPersonName"
+                    android:minHeight="45dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/textFieldUpdate7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:textColor="#272932"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_edit_text_1"
+                    android:ems="10"
+                    android:textColorHint="#272932"
+                    android:alpha="0.8"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="20sp"
+                    android:hint=""
+                    android:inputType="textPersonName"
+                    android:minHeight="45dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/textFieldUpdate8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:textColor="#272932"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_edit_text_1"
+                    android:ems="10"
+                    android:textColorHint="#272932"
+                    android:alpha="0.8"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="20sp"
+                    android:hint=""
+                    android:inputType="textPersonName"
+                    android:minHeight="45dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/textFieldUpdate9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:textColor="#272932"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_edit_text_1"
+                    android:ems="10"
+                    android:textColorHint="#272932"
+                    android:alpha="0.8"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="20sp"
+                    android:hint=""
+                    android:inputType="textPersonName"
+                    android:minHeight="45dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/textFieldUpdate10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#272932"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_edit_text_1"
+                    android:ems="10"
+                    android:textColorHint="#272932"
+                    android:alpha="0.8"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="20sp"
+                    android:hint=""
+                    android:inputType="textPersonName"
+                    android:minHeight="45dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/numericalFiledTextViewUpdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textColor="#272932"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="10dp"
+                    android:text="numerical fields"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/alegreya_sans_sc_light"
+                    android:textSize="32sp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/numericalFieldUpdate1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:textColor="#272932"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_edit_text_1"
+                    android:ems="10"
+                    android:textColorHint="#272932"
+                    android:alpha="0.8"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="20sp"
+                    android:hint=""
+                    android:inputType="textPersonName"
+                    android:minHeight="45dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/numericalFieldUpdate2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:textColor="#272932"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_edit_text_1"
+                    android:ems="10"
+                    android:textColorHint="#272932"
+                    android:alpha="0.8"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="20sp"
+                    android:hint=""
+                    android:inputType="textPersonName"
+                    android:minHeight="45dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/numericalFieldUpdate3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:textColor="#272932"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_edit_text_1"
+                    android:ems="10"
+                    android:textColorHint="#272932"
+                    android:alpha="0.8"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="20sp"
+                    android:hint=""
+                    android:inputType="textPersonName"
+                    android:minHeight="45dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/numericalFieldUpdate4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#272932"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_edit_text_1"
+                    android:ems="10"
+                    android:textColorHint="#272932"
+                    android:alpha="0.8"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="20sp"
+                    android:hint=""
+                    android:inputType="textPersonName"
+                    android:minHeight="45dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/numericalFieldUpdate5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:textColor="#272932"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_edit_text_1"
+                    android:ems="10"
+                    android:textColorHint="#272932"
+                    android:alpha="0.8"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="20sp"
+                    android:hint=""
+                    android:inputType="textPersonName"
+                    android:minHeight="45dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/numericalFieldUpdate6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:textColor="#272932"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_edit_text_1"
+                    android:ems="10"
+                    android:textColorHint="#272932"
+                    android:alpha="0.8"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="20sp"
+                    android:hint=""
+                    android:inputType="textPersonName"
+                    android:minHeight="45dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/numericalFieldUpdate7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:textColor="#272932"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_edit_text_1"
+                    android:ems="10"
+                    android:textColorHint="#272932"
+                    android:alpha="0.8"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="20sp"
+                    android:hint=""
+                    android:inputType="textPersonName"
+                    android:minHeight="45dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/numericalFieldUpdate8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:textColor="#272932"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_edit_text_1"
+                    android:ems="10"
+                    android:textColorHint="#272932"
+                    android:alpha="0.8"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="20sp"
+                    android:hint=""
+                    android:inputType="textPersonName"
+                    android:minHeight="45dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/numericalFieldUpdate9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:textColor="#272932"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_edit_text_1"
+                    android:ems="10"
+                    android:textColorHint="#272932"
+                    android:alpha="0.8"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="20sp"
+                    android:hint=""
+                    android:inputType="textPersonName"
+                    android:minHeight="45dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/numericalFieldUpdate10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:textColor="#272932"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_edit_text_1"
+                    android:ems="10"
+                    android:textColorHint="#272932"
+                    android:alpha="0.8"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="20sp"
+                    android:hint=""
+                    android:inputType="textPersonName"
+                    android:minHeight="45dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/documentFieldTextViewUpdate"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textColor="#272932"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="10dp"
+                    android:text="documents fields"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/alegreya_sans_sc_light"
+                    android:textSize="32sp"/>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/documentFieldUpdate1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#272932"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_edit_text_1"
+                    android:ems="10"
+                    android:textColorHint="#272932"
+                    android:alpha="0.8"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="20sp"
+                    android:hint=""
+                    android:inputType="textPersonName"
+                    android:minHeight="45dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/documentFieldUpdate2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:textColor="#272932"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_edit_text_1"
+                    android:ems="10"
+                    android:textColorHint="#272932"
+                    android:alpha="0.8"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="20sp"
+                    android:hint=""
+                    android:inputType="textPersonName"
+                    android:minHeight="45dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/documentFieldUpdate3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:textColor="#272932"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_edit_text_1"
+                    android:ems="10"
+                    android:textColorHint="#272932"
+                    android:alpha="0.8"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="20sp"
+                    android:hint=""
+                    android:inputType="textPersonName"
+                    android:minHeight="45dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/documentFieldUpdate4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:textColor="#272932"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_edit_text_1"
+                    android:ems="10"
+                    android:textColorHint="#272932"
+                    android:alpha="0.8"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="20sp"
+                    android:hint=""
+                    android:inputType="textPersonName"
+                    android:minHeight="45dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/documentFieldUpdate5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#272932"
+                    android:layout_weight="1"
+                    android:background="@drawable/layout_edit_text_1"
+                    android:ems="10"
+                    android:textColorHint="#272932"
+                    android:alpha="0.8"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="20sp"
+                    android:hint=""
+                    android:inputType="textPersonName"
+                    android:minHeight="45dp"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/updateServiceButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="update service"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:textColor="#272932"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginBottom="50dp"
+                    android:fontFamily="@font/alegreya_sans_sc_light"
+                    android:background="@drawable/layout_edit_text_1"
+                    android:layout_gravity="end"/>
+            </TableRow>
+
+
+        </TableLayout>
+
+</ScrollView>

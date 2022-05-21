@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_animation"
+    android:id="@+id/viewPastRequestsActivityLayout"
+    tools:context=".clientActivities.ViewPastRequestsActivity">
+
+    <TextView
+        android:id="@+id/textView555"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="50dp"
+        android:text="Past requests"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:textColor="#272932"
+        android:textSize="42sp"
+        android:textStyle="bold"/>
+
+    <ListView
+        android:id="@+id/pastRequestsLitView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView555"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:textColor="#272932"
+        android:textSize="22sp"
+        />
+</RelativeLayout>

@@ -1,1 +1,0 @@
-# novigrad-android-app

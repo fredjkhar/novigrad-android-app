@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_animation"
+    android:id="@+id/employeeLayout"
+    tools:context=".employeeActivities.EmployeeSectionActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:text="actions"
+        android:textColor="#272932"
+        android:textSize="42sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/createBranchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:minWidth="120dp"
+        android:minHeight="35dp"
+        android:text="Set up a branch"
+        android:textColor="#272932"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/viewBranchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:minWidth="120dp"
+        android:minHeight="35dp"
+        android:text="View branches"
+        android:textColor="#272932"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/createBranchButton"
+        app:layout_constraintTop_toBottomOf="@+id/createBranchButton" />
+
+    <TextView
+        android:id="@+id/deleteBranchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:text="Delete a branch"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:minWidth="120dp"
+        android:minHeight="35dp"
+        android:textColor="#272932"
+        app:layout_constraintStart_toStartOf="@+id/viewBranchButton"
+        app:layout_constraintTop_toBottomOf="@+id/viewBranchButton" />
+
+    <TextView
+        android:id="@+id/modifyBranchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:text="Modify branch settings"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:minWidth="120dp"
+        android:minHeight="35dp"
+        android:textColor="#272932"
+        app:layout_constraintStart_toStartOf="@+id/deleteBranchButton"
+        app:layout_constraintTop_toBottomOf="@+id/deleteBranchButton" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/logoutEmployeeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/layout_edit_text_1"
+        android:fontFamily="@font/alegreya_sans_sc_light"
+        android:minWidth="120dp"
+        android:minHeight="45dp"
+        android:text="logout"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
